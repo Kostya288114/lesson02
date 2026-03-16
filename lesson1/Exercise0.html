@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2</title>
+
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <script>
+      // Задача 0
+      // Data
+      let a = parseFloat(prompt('Введіть значення a', '0'))
+      let b = parseFloat(prompt('Введіть значення b', '2'))
+      let c = parseFloat(prompt('Введіть значення c', '4'))
+      let numberTwelve = 12
+      // Operations
+      let taskOne = a + numberTwelve + b
+      let taskTwo = Math.sqrt(a + b / 2 * a)
+      let taskThree = Math.cbrt((a + b) * c)
+      let taskFour = Math.sin(a / -b)
+      // Output
+      document.write(`
+        <div>
+              <h2 style="font-family: Arial, Helvetica, sans-serif; margin-left: 20px;">Задача 0</h2>
+              <ul style="font-family: Arial, Helvetica, sans-serif; list-style-type: none;">
+                <li> <span style="font-weight: bold;">1)</span> ${taskOne}</li>
+                <li> <span style="font-weight: bold;">2)</span> ${taskTwo}</li>
+                <li> <span style="font-weight: bold;">3)</span> ${taskThree}</li>
+                <li> <span style="font-weight: bold;">4)</span> ${taskFour}</li>
+              </ul>
+        </div>
+      `)  
+    </script>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>

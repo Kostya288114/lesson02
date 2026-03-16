@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Homework 2</title>
+
+	</head>
+	<body>
+		<header></header>
+		<main>
+			<script>
+
+				// Задача 6
+      	// Data
+				let priceItem1 = parseInt(prompt('Введіть вартість товару', 50))
+				let countItem1 = parseInt(prompt('Введіть кількість товару(кг)', 2))
+				let priceItem2 = parseInt(prompt('Введіть вартість товару', 60))
+				let countItem2 = parseInt(prompt('Введіть кількість товару(кг)', 3))
+				let priceItem3 = parseInt(prompt('Введіть вартість товару', 45))
+				let countItem3 = parseInt(prompt('Введіть кількість товару(кг)', 5))
+
+				// Operations and Output
+				document.write(
+						`
+					<h2 style="font-family: Arial, Helvetica, sans-serif; margin-left: 20px;">Задача 6</h2>
+						<table style="font-family: Arial, Helvetica, sans-serif;">
+						<tr>
+							<td>Назва товару</td>
+							<td>Кількість товару</td>
+							<td>Ціна товару</td>
+							<td>Загальна ціна</td>
+						</tr>
+						<tr>
+							<td>Яблука</td>
+							<td>${countItem1} кг.</td>
+							<td>${priceItem1} грн.</td>
+							<td>${countItem1 * priceItem1} грн.</td>
+						</tr>
+						<tr>
+							<td>Мандарини</td>
+							<td>${countItem2} кг.</td>
+							<td>${priceItem2} грн.</td>
+							<td>${countItem2 * priceItem2} грн.</td>
+						</tr>
+						<tr>
+							<td>Помідори</td>
+							<td>${countItem3} кг.</td>
+							<td>${priceItem3} грн.</td>
+							<td>${countItem3 * priceItem3} грн.</td>
+						</tr>
+					</table>`
+					);
+    </script>
+		</main>
+		<footer>
+
+		</footer>
+	</body>
+</html>
